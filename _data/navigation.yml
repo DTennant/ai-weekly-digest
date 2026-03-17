@@ -1,0 +1,7 @@
+main:
+  - title: "Home"
+    url: /ai-weekly-digest/
+  - title: "About"
+    url: /ai-weekly-digest/about/
+  - title: "GitHub"
+    url: https://github.com/DTennant/ai-weekly-digest
