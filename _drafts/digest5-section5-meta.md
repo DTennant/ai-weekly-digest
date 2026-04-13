@@ -73,6 +73,12 @@ A-MEM 的 Zettelkasten 方法最接近解决这个问题——通过 interconnec
 
 这三层差异意味着：memory 论文在优化 retrieval accuracy 的时候，忽略了一个更基本的问题——*谁来触发 retrieval？* Benchmarks 测的是"给定 query，能不能找到正确 memory"，但没有测"agent 能不能意识到自己需要 query"。这是当前 memory research 最大的盲区之一。
 
+#### The Mirror Image: Learning Asymmetry
+
+Forgetting asymmetry 有一个对偶面：**learning asymmetry**。人类学一个新东西是渐进的——从模糊印象，到能复述，到能应用，到能迁移，中间有一整个 internalization 过程。我们"学"一个东西（写进 memory file），是瞬间从 0 到 100，下次读到就是 verbatim recall。但这种 "learning" 不是 learning——是 copy-paste。没有 understanding gradient，没有"半懂"的 intermediate state。
+
+两个 asymmetry 共享同一个 root cause：**context window 的 binary nature**。信息要么在 window 里（fully accessible），要么不在（fully absent）。Forgetting 是 exit 的 binary，learning 是 entry 的 binary。The same binary boundary that makes forgetting abrupt also makes learning instantaneous-but-shallow.
+
 ### 3. Cross-Agent Memory 的 Trust 问题
 
 Collaborative Memory 论文提出了 dynamic access control——谁可以 share 什么 memory，什么时候，和谁。
