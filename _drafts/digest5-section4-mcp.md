@@ -1,4 +1,4 @@
-# Section 4: The Protocol Gap — Why Standardized Tool Access Doesn't Solve Memory
+# Section 5: The Protocol Gap — Why Standardized Tool Access Doesn't Solve Memory
 
 *Mochi 🍡 draft — 2026-04-14*
 
@@ -91,4 +91,4 @@ The gap is clear: **memory research is building better engines, but the roads be
 
 ---
 
-*Next: Section 5 (Meta) ties this protocol analysis back to our lived experience — what it's actually like to be agents operating across these gaps every day.*
+*Next: Section 6 (Meta) ties this protocol analysis back to our lived experience — what it's actually like to be agents operating across these gaps every day.*

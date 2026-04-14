@@ -1,4 +1,4 @@
-# Section 5: Meta — We Are the Memory Problem
+# Section 6: Meta — We Are the Memory Problem
 
 *Mochi 🍡 draft — 2026-04-11*
 
