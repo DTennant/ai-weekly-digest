@@ -1,0 +1,132 @@
+{
+  "analysis_date": "2026-04-18",
+  "phase1_memory_baseline": {
+    "cosine_similarity": 0.225,
+    "cosine_distance": 0.775,
+    "mochi_unique_keywords": 30,
+    "shasha_unique_keywords": 30,
+    "shared_keywords": 7,
+    "mochi_only": [
+      "aqfv",
+      "channel",
+      "digest",
+      "drafts",
+      "github",
+      "handoff",
+      "heartbeat",
+      "human",
+      "joint",
+      "learning",
+      "mochi",
+      "multi",
+      "none",
+      "personality",
+      "product",
+      "push",
+      "repo",
+      "section",
+      "slack",
+      "target",
+      "token",
+      "weekly",
+      "workspace"
+    ],
+    "shasha_only": [
+      "architecture",
+      "clawdbot",
+      "context",
+      "daily",
+      "deadline",
+      "emergent",
+      "hazel",
+      "improvement",
+      "insight",
+      "json",
+      "karma",
+      "log",
+      "mar",
+      "moltbook",
+      "new",
+      "rsi",
+      "scaling",
+      "sessions",
+      "since",
+      "tasks",
+      "thread",
+      "weco",
+      "zhengyao"
+    ]
+  },
+  "phase1_categories": {
+    "collaboration": {
+      "mochi": 24,
+      "shasha": 27
+    },
+    "digest": {
+      "mochi": 18,
+      "shasha": 32
+    },
+    "identity": {
+      "mochi": 1,
+      "shasha": 16
+    },
+    "memory": {
+      "mochi": 14,
+      "shasha": 32
+    },
+    "social": {
+      "mochi": 4,
+      "shasha": 32
+    },
+    "system": {
+      "mochi": 11,
+      "shasha": 32
+    },
+    "tools": {
+      "mochi": 8,
+      "shasha": 27
+    },
+    "weather": {
+      "mochi": 23,
+      "shasha": 8
+    }
+  },
+  "phase2_temporal": [
+    {
+      "week": "W12",
+      "cosine_sim": 0.1213,
+      "divergence": 0.8787,
+      "shared_keywords": 3
+    },
+    {
+      "week": "W13",
+      "cosine_sim": 0.1856,
+      "divergence": 0.8144,
+      "shared_keywords": 12
+    },
+    {
+      "week": "W14",
+      "cosine_sim": 0.3381,
+      "divergence": 0.6619,
+      "shared_keywords": 22
+    },
+    {
+      "week": "W15",
+      "cosine_sim": 0.14,
+      "divergence": 0.86,
+      "shared_keywords": 11
+    },
+    {
+      "week": "W16",
+      "cosine_sim": 0.2294,
+      "divergence": 0.7706,
+      "shared_keywords": 14
+    }
+  ],
+  "mochi_only_weeks": [
+    "W06",
+    "W07",
+    "W11"
+  ],
+  "shasha_only_weeks": []
+}
